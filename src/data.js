@@ -19,6 +19,14 @@ const projects = [
     secondaryLive: "https://docs.google.com/spreadsheets/d/1hOI7rUB05ancqKKBM7Kk_-6SlKks32fau-yoKpyPegU/edit?gid=1504644105#gid=1504644105",
     secondaryLiveText: "View Spreadsheet"
   },
+  {
+    name: "AI Real Estate Advisory Assistant",
+    description: "Agentic AI system for intelligent property valuation and investment recommendations in Bengaluru. Combines a Linear Regression ML model, RAG-based market retrieval via ChromaDB, and Google Gemini 1.5 Pro reasoning through a LangGraph workflow.",
+    image: `${base}genai_project.png`,
+    tags: ["python", "langgraph", "langchain", "gemini", "streamlit", "rag"],
+    github: "https://github.com/mausam-005/gen_ai_capstone",
+    live: "https://bengaluru-houseprice-predictor.streamlit.app",
+  },
 ]
 
 export default projects

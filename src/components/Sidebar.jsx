@@ -2,15 +2,14 @@ const base = import.meta.env.BASE_URL
 
 export default function Sidebar() {
   const dvaSkills = [
-    "Excel", "Tableau", "Spreadsheet", "Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly", "MySQL"
+    "Excel", "Tableau", "Spreadsheet", "MySQL",
+    "Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"
   ]
 
   const techStack = [
-    "React", "Next.js", "Node.js", "Express JS", "MongoDB", 
-    "Prisma ORM", "Tailwind CSS", "HTML", "CSS", "JavaScript", "TypeScript",
-    "Docker", "Docker Compose", "Kubernetes", "Terraform", "Git and Github", 
-    "UI/UX", "Research", "Leadership", "GenAI", "LangChain", "LangGraph", 
-    "Unit Testing"
+    "GenAI", "LangChain", "LangGraph", "Streamlit",
+    "React", "Next.js", "Node.js", "Express JS", "MongoDB",
+    "Git and Github", "Research", "Leadership"
   ]
 
   return (
