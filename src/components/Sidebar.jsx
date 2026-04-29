@@ -44,7 +44,7 @@ export default function Sidebar() {
           LinkedIn
         </a>
         <a
-          href="#"
+          href="https://docs.google.com/document/d/1XlUzLDmhXIiX8HB8bBgVvhLRvobXt1Wj/edit?usp=sharing&ouid=106720156956780635336&rtpof=true&sd=true"
           target="_blank"
           rel="noreferrer"
           className="sidebar-social-btn"
@@ -55,7 +55,7 @@ export default function Sidebar() {
 
       <div className="sidebar-stats">
         <div className="sidebar-stat-item">
-          <strong>15</strong>
+          <strong>16</strong>
           <span>Repositories</span>
         </div>
         <div className="sidebar-stat-item">

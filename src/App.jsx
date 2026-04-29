@@ -46,6 +46,7 @@ export default function App(){
           <div className="footer-links">
             <a href="https://www.linkedin.com/in/mausam-kumar-818241343/" target="_blank" rel="noreferrer">LinkedIn</a>
             <a href="https://github.com/mausam-005" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://docs.google.com/document/d/1XlUzLDmhXIiX8HB8bBgVvhLRvobXt1Wj/edit?usp=sharing&ouid=106720156956780635336&rtpof=true&sd=true" target="_blank" rel="noreferrer">Resume</a>
             <a href="mailto:mausamdwivedi2020@gmail.com">Contact</a>
           </div>
         </div>

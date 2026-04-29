@@ -2,6 +2,14 @@ const base = import.meta.env.BASE_URL
 
 const projects = [
   {
+    name: "E-commerce Sales Analytics",
+    description: "Comprehensive data analytics project analyzing sales performance across Indian domestic (Amazon India) and International channels. Utilizing Tableau for high-impact visualizations of revenue trends, category performance, and fulfillment efficiency.",
+    image: `${base}ecommerce_project.png`,
+    tags: ["tableau", "sales-analytics", "data-viz", "business-intelligence"],
+    github: "https://github.com/mausam-005/E-commerce-Sales-Analytics-Tableau",
+    live: "https://public.tableau.com/app/profile/mausam.kumar8507/viz/E-commerceSaleReportbyMausam/Dashboard1"
+  },
+  {
     name: "Global AQI Analytics",
     description: "Advanced environmental monitoring tool utilizing Python, Pandas, and NumPy. Features complex trend analysis and automated visualization suites using Seaborn (sns) for heatmaps and Plotly for interactive statistical dashboards.",
     image: `${base}aqi_project.png`,
