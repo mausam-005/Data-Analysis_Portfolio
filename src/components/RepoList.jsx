@@ -1,10 +1,17 @@
 import RepoCard from "./RepoCard"
 
+const FILTER_CATEGORIES = [
+  { label: "All", key: "All" },
+  { label: "Visualization", key: "visualization" },
+  { label: "Python", key: "python" },
+  { label: "Analytics", key: "analytics" },
+  { label: "AI / ML", key: "ai-ml" },
+]
+
 export default function RepoList({projects,activeFilter,setActiveFilter,onCardClick}){
-  const allTags=["All",...new Set(projects.flatMap((p)=>p.tags))]
   const filtered=activeFilter==="All"
     ? projects
-    : projects.filter((p)=>p.tags.includes(activeFilter))
+    : projects.filter((p)=>p.categories?.includes(activeFilter))
 
   return(
     <div className="repo-list">
@@ -17,13 +24,13 @@ export default function RepoList({projects,activeFilter,setActiveFilter,onCardCl
       </div>
 
       <div className="repo-list-filters">
-        {allTags.map((tag)=>(
+        {FILTER_CATEGORIES.map((cat)=>(
           <button
-            key={tag}
-            className={"filter-tab"+(activeFilter===tag?" filter-tab-active":"")}
-            onClick={()=>setActiveFilter(tag)}
+            key={cat.key}
+            className={"filter-tab"+(activeFilter===cat.key?" filter-tab-active":"")}
+            onClick={()=>setActiveFilter(cat.key)}
           >
-            {tag}
+            {cat.label}
           </button>
         ))}
       </div>
